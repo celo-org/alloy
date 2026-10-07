@@ -566,6 +566,8 @@ impl ExecutionPayloadV1 {
             excess_blob_gas: None,
             parent_beacon_block_root: None,
             requests_hash: None,
+            block_access_list_hash: None,
+            slot_number: None,
             extra_data: self.extra_data,
             // Defaults
             ommers_hash: EMPTY_OMMER_ROOT_HASH,
